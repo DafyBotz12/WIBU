@@ -1075,9 +1075,9 @@ Silahkan Pilih Untuk Menampilkan Menu
 Jika Button Tidak Muncul Ketik .allmenu`
 menu =`𝑫𝒂𝒇𝒚乂𝐖𝐈𝐁𝐔𝐒𝐎𝐅𝐓🏴‍☠️`
 gbutsan = [
-{buttonId:`allmenu`,buttonText:{displayText:'🏴‍☠️𝐖𝐈𝐁𝐔乂🏴‍☠️'},type:1},
-{buttonId:`owner`,buttonText:{displayText:'🛐𝑫𝑨𝑭𝒀乂🛐'},type:1},
-{buttonId:`script`,buttonText:{displayText:'🤖𝐒𝐄𝐖𝐀乂🤖'},type:1}
+{buttonId:`allmenu`,buttonText:{displayText:'🏴‍☠️SHOW MENU🏴‍☠️'},type:1},
+{buttonId:`owner`,buttonText:{displayText:'🛐OWNER🛐'},type:1},
+{buttonId:`script`,buttonText:{displayText:'🤖SEWABOT🤖'},type:1}
 ]
 mhan = await wibu.prepareMessage(from, ofrply, image, {thumbnail: ofrply})
 const btnmenu = {
@@ -1105,7 +1105,7 @@ else if(menusimpel = true){
 			num = await fetchJson(`https://api.telnyx.com/anonymous/v2/number_lookup/${senderNumber}`, {method: 'get'})
        menu = `┌───「 \`\`\`${NamaBot}\`\`\` 」
 │
-🏴‍☠️ _Creator : *𝑫𝒂𝒇𝒚乂𝐖𝐈𝐁𝐔𝐒𝐎𝐅𝐓* 
+🏴‍☠️ _Creator : *𝑫𝒂𝒇𝒚乂𝐖𝐈𝐁𝐔𝐒𝐎𝐅𝐓*
 🏴‍☠️ _Battery : ${baterai.battery}_
 🏴‍☠️ _Mode : ${publik ? 'Public' : 'Self'}_
 🏴‍☠️ _Total Hit : ${cmhit.length}_
@@ -1135,7 +1135,7 @@ case 'allmenu':
   if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: ftrol})
 stod = `${sender}`
        stst = await wibu.getStatus(`${sender.split('@')[0]}@c.us`)
-       nama = '🏴‍☠️ 𝑫𝒂𝒇𝒚乂𝐖𝐈𝐁𝐔𝐒𝐎𝐅𝐓 🏴‍☠️'
+       nama = '𝑫𝒂𝒇𝒚乂𝐖𝐈𝐁𝐔𝐒𝐎𝐅𝐓🏴‍☠️'
        ownerJid = "6281379753850@s.whatsapp.net"
 				stst = stst.status == 401 ? '' : stst.status
 			num = await fetchJson(`https://api.telnyx.com/anonymous/v2/number_lookup/${senderNumber}`, {method: 'get'})
@@ -1465,9 +1465,9 @@ anu = wibu.prepareMessageFromContent(from,{
                   wibu.relayWAMessage(anu)
                   } else if(menuall = true){
 gbutsan = [
-{buttonId:`owner`,buttonText:{displayText:'🛐𝑫𝑨𝑭𝒀乂🛐'},type:1},
-{buttonId:`donasi`,buttonText:{displayText:'💗𝑫𝑶𝑵𝑨𝑺𝑰乂💗'},type:1},
-{buttonId:`script`,buttonText:{displayText:'🤖𝑺𝑬𝑾𝑨𝑩𝑶𝑻乂🤖'},type:1}
+{buttonId:`owner`,buttonText:{displayText:'🛐OWNER🛐'},type:1},
+{buttonId:`donasi`,buttonText:{displayText:'💗DONASI💗'},type:1},
+{buttonId:`script`,buttonText:{displayText:'🤖SEWABOT🤖'},type:1}
 ]
 mhan = await wibu.prepareMessage(from, pporigi, image, {thumbnail: pporigi})
 const btnBngsat = {
@@ -1496,8 +1496,8 @@ const serialUser = createSerial(18)
 
 *「 ${NamaBot} 」*`
 gbutsan = [
-{buttonId:`menu`,buttonText:{displayText:'❥︎𝐖𝐈𝐁𝐔️乂🏴‍☠️'},type:1},
-{buttonId:`donasi`,buttonText:{displayText:'💗𝐃𝐎𝐍𝐀𝐒𝐈乂💗'},type:1}
+{buttonId:`menu`,buttonText:{displayText:'🏴‍☠️MENU🏴‍☠️'},type:1},
+{buttonId:`donasi`,buttonText:{displayText:'💗DONASI💗'},type:1}
 ]
 mhan = await wibu.prepareMessage(from, ofrply, image, {thumbnail: ofrply})
 const sendBtnVeryy = {
@@ -2857,17 +2857,17 @@ break
 		case 'sc':
 		case 'sewabot':
 		case 'sourcecode':
-		anu =`*𝑫𝒂𝒇𝒚乂𝐖𝐈𝐁𝐔𝐒𝐎𝐅𝐓 SEWABOT*
-		15K PERMANEN BWANG:) RUN 𝐇𝐄𝐑𝐎𝐊𝐔 24JAM
+		anu =`*wibu SEWABOT*
+		15K PERMANEN BWANG:) RUN RDP 24JAM
 		MINAT PC OWNER SAJA`
  buttons = [
-{buttonId: `menu`, buttonText: {displayText: '𝐁𝐀𝐂𝐊乂➡️'}, type: 1},
-{buttonId:`donasi`,buttonText:{displayText:'💗𝐃𝐎𝐍𝐀𝐒𝐈乂💗'},type:1},
-{buttonId: `owner`, buttonText: {displayText: '🛐𝑫𝑨𝑭𝒀乂🛐'}, type: 1}
+{buttonId: `menu`, buttonText: {displayText: 'BACK➡️'}, type: 1},
+{buttonId:`donasi`,buttonText:{displayText:'💗DONASI💗'},type:1},
+{buttonId: `owner`, buttonText: {displayText: '🛐OWNER🛐'}, type: 1}
 ]
 const btnskuy = {
     contentText: `${anu}`,
-    footerText: '*_©𝑫𝒂𝒇𝒚乂𝐖𝐈𝐁𝐔𝐒𝐎𝐅𝐓_*',
+    footerText: '*_©wibu_*',
     buttons: buttons,
     headerType: 1
 }
@@ -2880,7 +2880,7 @@ doni =`*╭─❒ 「 Donasi 」 ──────*
 *│*⬡ *Mau donasi apa cuma liat doang?*
 *│*⬡ *PULSA     :* ${ovo}
 *│*⬡ *DANA    : ${dana}*
-*│*⬡ *GOPAY    : *081379753850*
+*│*⬡ *GOPAY    : *SCAN DI ATAS AJA*
 *└───────────────────*
 Scan QR di atas bila belum premium`
 wibu.sendMessage(from, dona, image, { quoted: ftrol, thumbnail: dona, caption: doni })
@@ -2944,7 +2944,7 @@ if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted
       {
         "urlButton": {
           "displayText": `Script ${NamaBot}`,
-          "url": "https://github.com/DafyBotz12"
+          "url": "https://github.com/KurrXd"
         },
         "index": 0
       }
